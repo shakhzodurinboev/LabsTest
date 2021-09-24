@@ -16,6 +16,7 @@ class Colors {
     static var white: UIColor = #colorLiteral(red: 1, green: 1, blue: 1, alpha: 1)
     static var textColorGrey: UIColor = #colorLiteral(red: 0.5843137255, green: 0.6156862745, blue: 0.6784313725, alpha: 1) // (149, 157, 173, 1)
     static var seperatorColor: UIColor = #colorLiteral(red: 0.4235294118, green: 0.4823529412, blue: 0.5411764706, alpha: 1) // (108, 123, 138)
-
+    static var lineSeperator: UIColor = #colorLiteral(red: 0.9058823529, green: 0.9058823529, blue: 0.9058823529, alpha: 1) // (231, 231, 231, 1);
+    static var searchText: UIColor = #colorLiteral(red: 0.6117647059, green: 0.6117647059, blue: 0.6117647059, alpha: 1) // 156 156 156
 }
 

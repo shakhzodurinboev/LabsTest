@@ -38,6 +38,7 @@
 		1BEC612126FDD940003721FB /* SearchHeaderTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BEC612026FDD940003721FB /* SearchHeaderTableViewCell.swift */; };
 		1BEC612426FDD975003721FB /* SearchResultModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BEC612326FDD975003721FB /* SearchResultModel.swift */; };
 		1BEC612726FDD98E003721FB /* LocationSearchDataProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BEC612626FDD98E003721FB /* LocationSearchDataProvider.swift */; };
+		1BEC612926FDE7D1003721FB /* TextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BEC612826FDE7D1003721FB /* TextField.swift */; };
 		782BD3E042AF0AFC226436B2 /* Pods_MapTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 04811863FBFEF8B04BC5F4A1 /* Pods_MapTest.framework */; };
 /* End PBXBuildFile section */
 
@@ -76,6 +77,7 @@
 		1BEC612026FDD940003721FB /* SearchHeaderTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchHeaderTableViewCell.swift; sourceTree = "<group>"; };
 		1BEC612326FDD975003721FB /* SearchResultModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchResultModel.swift; sourceTree = "<group>"; };
 		1BEC612626FDD98E003721FB /* LocationSearchDataProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationSearchDataProvider.swift; sourceTree = "<group>"; };
+		1BEC612826FDE7D1003721FB /* TextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextField.swift; sourceTree = "<group>"; };
 		7322D76175D235E2D7DBBE58 /* Pods-MapTest.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MapTest.release.xcconfig"; path = "Target Support Files/Pods-MapTest/Pods-MapTest.release.xcconfig"; sourceTree = "<group>"; };
 		F3ECA2BBEF95E0FBCCE3DD1A /* Pods-MapTest.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MapTest.debug.xcconfig"; path = "Target Support Files/Pods-MapTest/Pods-MapTest.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -190,6 +192,7 @@
 			children = (
 				1BEC60FA26FDD7F7003721FB /* Label.swift */,
 				1BEC60FC26FDD80C003721FB /* StackView.swift */,
+				1BEC612826FDE7D1003721FB /* TextField.swift */,
 			);
 			path = Default;
 			sourceTree = "<group>";
@@ -442,6 +445,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				1BEC610626FDD842003721FB /* Shadow.swift in Sources */,
+				1BEC612926FDE7D1003721FB /* TextField.swift in Sources */,
 				1BEC610B26FDD868003721FB /* ViewSpecificController.swift in Sources */,
 				1BEC60F826FDB4DD003721FB /* PrimaryButton.swift in Sources */,
 				1BEC610026FDD81F003721FB /* UIColor.swift in Sources */,

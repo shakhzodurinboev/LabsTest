@@ -9,6 +9,7 @@ import UIKit
 import GoogleMaps
 import CoreLocation
 
+
 class LocationViewController: UIViewController,ViewSpecificController {
     
     // MARK: - RootView
@@ -53,6 +54,10 @@ extension LocationViewController:LocationViewIxResponder {
     }
     
     func primaryButtonAction() {
+        
+    }
+    
+    func searchViewTapped() {
         let controller = LocationSearchViewController()
         self.navigationController?.pushViewController(controller, animated: true)
     }
@@ -73,5 +78,6 @@ extension LocationViewController: GMSMapViewDelegate,CLLocationManagerDelegate {
             print(address)
         }
     }
+    
     
 }

@@ -8,5 +8,5 @@ target 'MapTest' do
   # Pods for MapTest
 pod 'SnapKit', '~> 5.0.0'
 pod 'GoogleMaps', '4.2.0'
-
+pod 'GooglePlaces', '4.2.0'
 end

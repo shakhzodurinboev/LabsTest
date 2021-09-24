@@ -7,32 +7,29 @@
 
 import UIKit
 
-final class SearchHeaderTableViewCell: UITableViewCell {
+final class SearchHeaderView: UIView {
     // MARK: - Outlets
     weak var boxView: UIView!
     weak var seperatorView: UIView!
     weak var topLocationButton:UIButton!
-    weak var fromTopLabel:Label!
-    weak var fromBottomLabel:Label!
+    weak var topTextField: UITextField!
     weak var bottomLocationButton:UIButton!
-    weak var toTopLabel:Label!
-    weak var toBottomLabel:Label!
+    weak var bottomTextField: UITextField!
     weak var dashedView: UIView!
     weak var topIconImage:UIImageView!
     weak var bottomIconImage: UIImageView!
     // MARK: - Lifecycle
-    override init(style: UITableViewCell.CellStyle, reuseIdentifier: String?) {
-        super.init(style: style, reuseIdentifier: reuseIdentifier)
+    
+    override init(frame: CGRect) {
+        super.init(frame: frame)
         self.setupUI()
     }
-    
     required init?(coder: NSCoder) {
         super.init(coder: coder)
     }
     
     private func setupUI() {
         clipsToBounds = true
-        self.selectionStyle = .none
         self.backgroundColor = Colors.grey
         self.setupBoxView()
         self.setupFromViewItems()
@@ -44,7 +41,7 @@ final class SearchHeaderTableViewCell: UITableViewCell {
     private func setupBoxView() {
         let view = UIView()
         view.backgroundColor = .clear
-        self.contentView.addSubview(view)
+        self.addSubview(view)
         view.snp.makeConstraints { make in
             make.left.equalTo(20)
             make.right.equalTo(-20)
@@ -75,20 +72,17 @@ final class SearchHeaderTableViewCell: UITableViewCell {
             make.width.height.equalTo(35)
             make.top.right.equalTo(0)
         }
-        
-        let fromTopLabel = Label(font: Fonts.montserrat_medium.withSize(13), lines: 1, color: Colors.textColorGrey,text: "Whence")
-        let fromBottomLabel = Label(font: Fonts.montserrat_bold.withSize(15), lines: 1, color: Colors.black, text: "Luxe")
-        let labelStack = StackView(axis: .vertical, alignment: .fill, distribution: .fill, spacing: 0, views: [fromTopLabel,fromBottomLabel])
-        self.boxView.addSubview(labelStack)
-        labelStack.snp.makeConstraints { make in
+        let textField = TextField(placeholderText: "Whence", placeholderColor: Colors.black, textColor: Colors.black, textFont: Fonts.montserrat_bold.withSize(15), borderStyle: UITextField.BorderStyle.none, keyboardType: .default)
+        textField.autocorrectionType = .no
+        self.boxView.addSubview(textField)
+        textField.snp.makeConstraints { make in
             make.top.equalTo(0)
             make.left.equalTo(topImage.snp.right).offset(16)
             make.right.equalTo(fromLocationButton.snp.left).offset(-16)
         }
         self.topIconImage = topImage
-        self.fromTopLabel = fromTopLabel
-        self.fromBottomLabel = fromBottomLabel
         self.topLocationButton = fromLocationButton
+        self.topTextField = textField
     }
     
     private func setupSeperatorView() {
@@ -125,18 +119,14 @@ final class SearchHeaderTableViewCell: UITableViewCell {
             make.width.equalTo(14)
             make.height.equalTo(18)
         }
-        
-        let toTopLabel = Label(font: Fonts.montserrat_medium.withSize(13), lines: 1, color: Colors.textColorGrey,text: "Whence")
-        let toBottomLabel = Label(font: Fonts.montserrat_bold.withSize(15), lines: 1, color: Colors.black, text: "Luxe")
-        let labelStack = StackView(axis: .vertical, alignment: .fill, distribution: .fill, spacing: 0, views: [toTopLabel,toBottomLabel])
-        self.boxView.addSubview(labelStack)
-        labelStack.snp.makeConstraints { make in
+        let textField = TextField(placeholderText: "Whence", placeholderColor: Colors.black, textColor: Colors.black, textFont: Fonts.montserrat_bold.withSize(15), borderStyle: UITextField.BorderStyle.none, keyboardType: .default)
+        textField.autocorrectionType = .no
+        self.boxView.addSubview(textField)
+        textField.snp.makeConstraints { make in
             make.top.equalTo(toLocationButton.snp.top)
             make.left.equalTo(bottomImage.snp.right).offset(16)
             make.right.equalTo(toLocationButton.snp.left).offset(-16)
         }
-        self.toTopLabel = toTopLabel
-        self.toBottomLabel = toBottomLabel
         self.bottomLocationButton = toLocationButton
         self.bottomIconImage = bottomImage
     }
@@ -144,7 +134,7 @@ final class SearchHeaderTableViewCell: UITableViewCell {
     private func setupDashedView() {
         let view = UIView()
         view.backgroundColor = .clear
-        self.contentView.addSubview(view)
+        self.addSubview(view)
         view.snp.makeConstraints { (make) in
             make.bottom.equalTo(self.bottomIconImage.snp.top).offset(-6)
             make.top.equalTo(self.topIconImage.snp.bottom).offset(6)
@@ -169,4 +159,5 @@ final class SearchHeaderTableViewCell: UITableViewCell {
         lineLayer.path = path
         self.dashedView.layer.addSublayer(lineLayer)
     }
+    
 }
