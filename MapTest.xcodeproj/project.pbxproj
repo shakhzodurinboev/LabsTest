@@ -3,16 +3,41 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
 		1BEC60CC26FDB21F003721FB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BEC60CB26FDB21F003721FB /* AppDelegate.swift */; };
-		1BEC60CE26FDB21F003721FB /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BEC60CD26FDB21F003721FB /* SceneDelegate.swift */; };
-		1BEC60D026FDB21F003721FB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BEC60CF26FDB21F003721FB /* ViewController.swift */; };
-		1BEC60D326FDB21F003721FB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1BEC60D126FDB21F003721FB /* Main.storyboard */; };
 		1BEC60D526FDB220003721FB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1BEC60D426FDB220003721FB /* Assets.xcassets */; };
 		1BEC60D826FDB220003721FB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1BEC60D626FDB220003721FB /* LaunchScreen.storyboard */; };
+		1BEC60EC26FDB494003721FB /* Proxima-Nova-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1BEC60E326FDB494003721FB /* Proxima-Nova-Bold.ttf */; };
+		1BEC60ED26FDB494003721FB /* Montserrat-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1BEC60E526FDB494003721FB /* Montserrat-Medium.ttf */; };
+		1BEC60EE26FDB494003721FB /* Montserrat-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1BEC60E626FDB494003721FB /* Montserrat-Light.ttf */; };
+		1BEC60EF26FDB494003721FB /* Montserrat-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1BEC60E726FDB494003721FB /* Montserrat-Bold.ttf */; };
+		1BEC60F026FDB494003721FB /* Montserrat-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1BEC60E826FDB494003721FB /* Montserrat-SemiBold.ttf */; };
+		1BEC60F126FDB494003721FB /* Montserrat-ExtraBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1BEC60E926FDB494003721FB /* Montserrat-ExtraBold.ttf */; };
+		1BEC60F226FDB494003721FB /* Montserrat-Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1BEC60EA26FDB494003721FB /* Montserrat-Black.ttf */; };
+		1BEC60F326FDB494003721FB /* Montserrat-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1BEC60EB26FDB494003721FB /* Montserrat-Regular.ttf */; };
+		1BEC60F626FDB4CD003721FB /* DefaultNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BEC60F526FDB4CD003721FB /* DefaultNavigationController.swift */; };
+		1BEC60F826FDB4DD003721FB /* PrimaryButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BEC60F726FDB4DD003721FB /* PrimaryButton.swift */; };
+		1BEC60FB26FDD7F7003721FB /* Label.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BEC60FA26FDD7F7003721FB /* Label.swift */; };
+		1BEC60FD26FDD80C003721FB /* StackView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BEC60FC26FDD80C003721FB /* StackView.swift */; };
+		1BEC610026FDD81F003721FB /* UIColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BEC60FF26FDD81F003721FB /* UIColor.swift */; };
+		1BEC610226FDD82A003721FB /* Colors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BEC610126FDD82A003721FB /* Colors.swift */; };
+		1BEC610426FDD835003721FB /* UIFont.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BEC610326FDD835003721FB /* UIFont.swift */; };
+		1BEC610626FDD842003721FB /* Shadow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BEC610526FDD842003721FB /* Shadow.swift */; };
+		1BEC610826FDD852003721FB /* NSObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BEC610726FDD852003721FB /* NSObject.swift */; };
+		1BEC610B26FDD868003721FB /* ViewSpecificController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BEC610A26FDD868003721FB /* ViewSpecificController.swift */; };
+		1BEC610E26FDD884003721FB /* SplashRootView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BEC610D26FDD884003721FB /* SplashRootView.swift */; };
+		1BEC611026FDD899003721FB /* SplashViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BEC610F26FDD899003721FB /* SplashViewController.swift */; };
+		1BEC611326FDD8B0003721FB /* LocationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BEC611226FDD8B0003721FB /* LocationViewController.swift */; };
+		1BEC611526FDD8BC003721FB /* LocationRootView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BEC611426FDD8BC003721FB /* LocationRootView.swift */; };
+		1BEC611826FDD8E0003721FB /* LocationSearchRootView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BEC611726FDD8E0003721FB /* LocationSearchRootView.swift */; };
+		1BEC611C26FDD90E003721FB /* LocationSearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BEC611B26FDD90E003721FB /* LocationSearchViewController.swift */; };
+		1BEC611F26FDD92D003721FB /* SearchResultTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BEC611E26FDD92D003721FB /* SearchResultTableViewCell.swift */; };
+		1BEC612126FDD940003721FB /* SearchHeaderTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BEC612026FDD940003721FB /* SearchHeaderTableViewCell.swift */; };
+		1BEC612426FDD975003721FB /* SearchResultModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BEC612326FDD975003721FB /* SearchResultModel.swift */; };
+		1BEC612726FDD98E003721FB /* LocationSearchDataProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BEC612626FDD98E003721FB /* LocationSearchDataProvider.swift */; };
 		782BD3E042AF0AFC226436B2 /* Pods_MapTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 04811863FBFEF8B04BC5F4A1 /* Pods_MapTest.framework */; };
 /* End PBXBuildFile section */
 
@@ -20,12 +45,37 @@
 		04811863FBFEF8B04BC5F4A1 /* Pods_MapTest.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MapTest.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		1BEC60C826FDB21F003721FB /* MapTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MapTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1BEC60CB26FDB21F003721FB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		1BEC60CD26FDB21F003721FB /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		1BEC60CF26FDB21F003721FB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		1BEC60D226FDB21F003721FB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		1BEC60D426FDB220003721FB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1BEC60D726FDB220003721FB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1BEC60D926FDB220003721FB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1BEC60E326FDB494003721FB /* Proxima-Nova-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Proxima-Nova-Bold.ttf"; sourceTree = "<group>"; };
+		1BEC60E526FDB494003721FB /* Montserrat-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-Medium.ttf"; sourceTree = "<group>"; };
+		1BEC60E626FDB494003721FB /* Montserrat-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-Light.ttf"; sourceTree = "<group>"; };
+		1BEC60E726FDB494003721FB /* Montserrat-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-Bold.ttf"; sourceTree = "<group>"; };
+		1BEC60E826FDB494003721FB /* Montserrat-SemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-SemiBold.ttf"; sourceTree = "<group>"; };
+		1BEC60E926FDB494003721FB /* Montserrat-ExtraBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-ExtraBold.ttf"; sourceTree = "<group>"; };
+		1BEC60EA26FDB494003721FB /* Montserrat-Black.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-Black.ttf"; sourceTree = "<group>"; };
+		1BEC60EB26FDB494003721FB /* Montserrat-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-Regular.ttf"; sourceTree = "<group>"; };
+		1BEC60F526FDB4CD003721FB /* DefaultNavigationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DefaultNavigationController.swift; sourceTree = "<group>"; };
+		1BEC60F726FDB4DD003721FB /* PrimaryButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrimaryButton.swift; sourceTree = "<group>"; };
+		1BEC60FA26FDD7F7003721FB /* Label.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Label.swift; sourceTree = "<group>"; };
+		1BEC60FC26FDD80C003721FB /* StackView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StackView.swift; sourceTree = "<group>"; };
+		1BEC60FF26FDD81F003721FB /* UIColor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIColor.swift; sourceTree = "<group>"; };
+		1BEC610126FDD82A003721FB /* Colors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Colors.swift; sourceTree = "<group>"; };
+		1BEC610326FDD835003721FB /* UIFont.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIFont.swift; sourceTree = "<group>"; };
+		1BEC610526FDD842003721FB /* Shadow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Shadow.swift; sourceTree = "<group>"; };
+		1BEC610726FDD852003721FB /* NSObject.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NSObject.swift; sourceTree = "<group>"; };
+		1BEC610A26FDD868003721FB /* ViewSpecificController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewSpecificController.swift; sourceTree = "<group>"; };
+		1BEC610D26FDD884003721FB /* SplashRootView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashRootView.swift; sourceTree = "<group>"; };
+		1BEC610F26FDD899003721FB /* SplashViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashViewController.swift; sourceTree = "<group>"; };
+		1BEC611226FDD8B0003721FB /* LocationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationViewController.swift; sourceTree = "<group>"; };
+		1BEC611426FDD8BC003721FB /* LocationRootView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationRootView.swift; sourceTree = "<group>"; };
+		1BEC611726FDD8E0003721FB /* LocationSearchRootView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationSearchRootView.swift; sourceTree = "<group>"; };
+		1BEC611B26FDD90E003721FB /* LocationSearchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationSearchViewController.swift; sourceTree = "<group>"; };
+		1BEC611E26FDD92D003721FB /* SearchResultTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchResultTableViewCell.swift; sourceTree = "<group>"; };
+		1BEC612026FDD940003721FB /* SearchHeaderTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchHeaderTableViewCell.swift; sourceTree = "<group>"; };
+		1BEC612326FDD975003721FB /* SearchResultModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchResultModel.swift; sourceTree = "<group>"; };
+		1BEC612626FDD98E003721FB /* LocationSearchDataProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationSearchDataProvider.swift; sourceTree = "<group>"; };
 		7322D76175D235E2D7DBBE58 /* Pods-MapTest.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MapTest.release.xcconfig"; path = "Target Support Files/Pods-MapTest/Pods-MapTest.release.xcconfig"; sourceTree = "<group>"; };
 		F3ECA2BBEF95E0FBCCE3DD1A /* Pods-MapTest.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MapTest.debug.xcconfig"; path = "Target Support Files/Pods-MapTest/Pods-MapTest.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -63,15 +113,176 @@
 		1BEC60CA26FDB21F003721FB /* MapTest */ = {
 			isa = PBXGroup;
 			children = (
+				1BEC60DF26FDB41E003721FB /* Resources */,
+				1BEC60E026FDB474003721FB /* Shared */,
+				1BEC60E126FDB47E003721FB /* Controllers */,
+			);
+			path = MapTest;
+			sourceTree = "<group>";
+		};
+		1BEC60DF26FDB41E003721FB /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				1BEC60E226FDB494003721FB /* Font */,
 				1BEC60CB26FDB21F003721FB /* AppDelegate.swift */,
-				1BEC60CD26FDB21F003721FB /* SceneDelegate.swift */,
-				1BEC60CF26FDB21F003721FB /* ViewController.swift */,
-				1BEC60D126FDB21F003721FB /* Main.storyboard */,
 				1BEC60D426FDB220003721FB /* Assets.xcassets */,
 				1BEC60D626FDB220003721FB /* LaunchScreen.storyboard */,
 				1BEC60D926FDB220003721FB /* Info.plist */,
 			);
-			path = MapTest;
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		1BEC60E026FDB474003721FB /* Shared */ = {
+			isa = PBXGroup;
+			children = (
+				1BEC610926FDD85B003721FB /* Global Protocols */,
+				1BEC60FE26FDD819003721FB /* Extensions */,
+				1BEC60F426FDB4BE003721FB /* AppKit */,
+			);
+			path = Shared;
+			sourceTree = "<group>";
+		};
+		1BEC60E126FDB47E003721FB /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				1BEC610C26FDD878003721FB /* Splash */,
+				1BEC611126FDD89F003721FB /* LocationViewController */,
+				1BEC611626FDD8C8003721FB /* LocationSearchViewController */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		1BEC60E226FDB494003721FB /* Font */ = {
+			isa = PBXGroup;
+			children = (
+				1BEC60E326FDB494003721FB /* Proxima-Nova-Bold.ttf */,
+				1BEC60E426FDB494003721FB /* Montserrat */,
+			);
+			path = Font;
+			sourceTree = "<group>";
+		};
+		1BEC60E426FDB494003721FB /* Montserrat */ = {
+			isa = PBXGroup;
+			children = (
+				1BEC60E526FDB494003721FB /* Montserrat-Medium.ttf */,
+				1BEC60E626FDB494003721FB /* Montserrat-Light.ttf */,
+				1BEC60E726FDB494003721FB /* Montserrat-Bold.ttf */,
+				1BEC60E826FDB494003721FB /* Montserrat-SemiBold.ttf */,
+				1BEC60E926FDB494003721FB /* Montserrat-ExtraBold.ttf */,
+				1BEC60EA26FDB494003721FB /* Montserrat-Black.ttf */,
+				1BEC60EB26FDB494003721FB /* Montserrat-Regular.ttf */,
+			);
+			path = Montserrat;
+			sourceTree = "<group>";
+		};
+		1BEC60F426FDB4BE003721FB /* AppKit */ = {
+			isa = PBXGroup;
+			children = (
+				1BEC60F926FDB4E9003721FB /* Default */,
+				1BEC60F526FDB4CD003721FB /* DefaultNavigationController.swift */,
+				1BEC60F726FDB4DD003721FB /* PrimaryButton.swift */,
+			);
+			path = AppKit;
+			sourceTree = "<group>";
+		};
+		1BEC60F926FDB4E9003721FB /* Default */ = {
+			isa = PBXGroup;
+			children = (
+				1BEC60FA26FDD7F7003721FB /* Label.swift */,
+				1BEC60FC26FDD80C003721FB /* StackView.swift */,
+			);
+			path = Default;
+			sourceTree = "<group>";
+		};
+		1BEC60FE26FDD819003721FB /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				1BEC60FF26FDD81F003721FB /* UIColor.swift */,
+				1BEC610126FDD82A003721FB /* Colors.swift */,
+				1BEC610326FDD835003721FB /* UIFont.swift */,
+				1BEC610526FDD842003721FB /* Shadow.swift */,
+				1BEC610726FDD852003721FB /* NSObject.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		1BEC610926FDD85B003721FB /* Global Protocols */ = {
+			isa = PBXGroup;
+			children = (
+				1BEC610A26FDD868003721FB /* ViewSpecificController.swift */,
+			);
+			path = "Global Protocols";
+			sourceTree = "<group>";
+		};
+		1BEC610C26FDD878003721FB /* Splash */ = {
+			isa = PBXGroup;
+			children = (
+				1BEC610D26FDD884003721FB /* SplashRootView.swift */,
+				1BEC610F26FDD899003721FB /* SplashViewController.swift */,
+			);
+			path = Splash;
+			sourceTree = "<group>";
+		};
+		1BEC611126FDD89F003721FB /* LocationViewController */ = {
+			isa = PBXGroup;
+			children = (
+				1BEC611226FDD8B0003721FB /* LocationViewController.swift */,
+				1BEC611426FDD8BC003721FB /* LocationRootView.swift */,
+			);
+			path = LocationViewController;
+			sourceTree = "<group>";
+		};
+		1BEC611626FDD8C8003721FB /* LocationSearchViewController */ = {
+			isa = PBXGroup;
+			children = (
+				1BEC612526FDD97A003721FB /* DataProvider */,
+				1BEC612226FDD968003721FB /* Model */,
+				1BEC611A26FDD903003721FB /* View */,
+			);
+			path = LocationSearchViewController;
+			sourceTree = "<group>";
+		};
+		1BEC611926FDD8EF003721FB /* Root */ = {
+			isa = PBXGroup;
+			children = (
+				1BEC611D26FDD914003721FB /* Cell */,
+				1BEC611726FDD8E0003721FB /* LocationSearchRootView.swift */,
+			);
+			path = Root;
+			sourceTree = "<group>";
+		};
+		1BEC611A26FDD903003721FB /* View */ = {
+			isa = PBXGroup;
+			children = (
+				1BEC611926FDD8EF003721FB /* Root */,
+				1BEC611B26FDD90E003721FB /* LocationSearchViewController.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		1BEC611D26FDD914003721FB /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				1BEC611E26FDD92D003721FB /* SearchResultTableViewCell.swift */,
+				1BEC612026FDD940003721FB /* SearchHeaderTableViewCell.swift */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
+		1BEC612226FDD968003721FB /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				1BEC612326FDD975003721FB /* SearchResultModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		1BEC612526FDD97A003721FB /* DataProvider */ = {
+			isa = PBXGroup;
+			children = (
+				1BEC612626FDD98E003721FB /* LocationSearchDataProvider.swift */,
+			);
+			path = DataProvider;
 			sourceTree = "<group>";
 		};
 		261E7B4C5FE4CC647C0793E1 /* Frameworks */ = {
@@ -88,7 +299,6 @@
 				F3ECA2BBEF95E0FBCCE3DD1A /* Pods-MapTest.debug.xcconfig */,
 				7322D76175D235E2D7DBBE58 /* Pods-MapTest.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -152,9 +362,16 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1BEC60EE26FDB494003721FB /* Montserrat-Light.ttf in Resources */,
 				1BEC60D826FDB220003721FB /* LaunchScreen.storyboard in Resources */,
+				1BEC60EF26FDB494003721FB /* Montserrat-Bold.ttf in Resources */,
+				1BEC60F026FDB494003721FB /* Montserrat-SemiBold.ttf in Resources */,
+				1BEC60EC26FDB494003721FB /* Proxima-Nova-Bold.ttf in Resources */,
+				1BEC60F126FDB494003721FB /* Montserrat-ExtraBold.ttf in Resources */,
+				1BEC60ED26FDB494003721FB /* Montserrat-Medium.ttf in Resources */,
 				1BEC60D526FDB220003721FB /* Assets.xcassets in Resources */,
-				1BEC60D326FDB21F003721FB /* Main.storyboard in Resources */,
+				1BEC60F326FDB494003721FB /* Montserrat-Regular.ttf in Resources */,
+				1BEC60F226FDB494003721FB /* Montserrat-Black.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -224,23 +441,33 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1BEC60D026FDB21F003721FB /* ViewController.swift in Sources */,
+				1BEC610626FDD842003721FB /* Shadow.swift in Sources */,
+				1BEC610B26FDD868003721FB /* ViewSpecificController.swift in Sources */,
+				1BEC60F826FDB4DD003721FB /* PrimaryButton.swift in Sources */,
+				1BEC610026FDD81F003721FB /* UIColor.swift in Sources */,
+				1BEC612426FDD975003721FB /* SearchResultModel.swift in Sources */,
+				1BEC612126FDD940003721FB /* SearchHeaderTableViewCell.swift in Sources */,
 				1BEC60CC26FDB21F003721FB /* AppDelegate.swift in Sources */,
-				1BEC60CE26FDB21F003721FB /* SceneDelegate.swift in Sources */,
+				1BEC611826FDD8E0003721FB /* LocationSearchRootView.swift in Sources */,
+				1BEC610E26FDD884003721FB /* SplashRootView.swift in Sources */,
+				1BEC611026FDD899003721FB /* SplashViewController.swift in Sources */,
+				1BEC611F26FDD92D003721FB /* SearchResultTableViewCell.swift in Sources */,
+				1BEC611326FDD8B0003721FB /* LocationViewController.swift in Sources */,
+				1BEC610226FDD82A003721FB /* Colors.swift in Sources */,
+				1BEC610426FDD835003721FB /* UIFont.swift in Sources */,
+				1BEC60FB26FDD7F7003721FB /* Label.swift in Sources */,
+				1BEC610826FDD852003721FB /* NSObject.swift in Sources */,
+				1BEC611526FDD8BC003721FB /* LocationRootView.swift in Sources */,
+				1BEC611C26FDD90E003721FB /* LocationSearchViewController.swift in Sources */,
+				1BEC612726FDD98E003721FB /* LocationSearchDataProvider.swift in Sources */,
+				1BEC60F626FDB4CD003721FB /* DefaultNavigationController.swift in Sources */,
+				1BEC60FD26FDD80C003721FB /* StackView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		1BEC60D126FDB21F003721FB /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				1BEC60D226FDB21F003721FB /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		1BEC60D626FDB220003721FB /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -256,6 +483,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = (
+					"$(ARCHS_STANDARD)",
+					"x86_64-apple-ios-simulator",
+				);
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
@@ -289,6 +520,7 @@
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
+				"EXCLUDED_ARCHS[sdk=iphonesimulator*]" = arm64;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_NO_COMMON_BLOCKS = YES;
@@ -317,6 +549,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = (
+					"$(ARCHS_STANDARD)",
+					"x86_64-apple-ios-simulator",
+				);
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
@@ -376,7 +612,8 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 3S6MJ5ST9H;
-				INFOPLIST_FILE = MapTest/Info.plist;
+				INFOPLIST_FILE = MapTest/Resources/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -384,7 +621,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.shakhzod.MapTest;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -396,7 +633,8 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 3S6MJ5ST9H;
-				INFOPLIST_FILE = MapTest/Info.plist;
+				INFOPLIST_FILE = MapTest/Resources/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -404,7 +642,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.shakhzod.MapTest;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
